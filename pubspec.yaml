@@ -1,7 +1,7 @@
 name: manage_permissions
-description: "A new Flutter package project."
+description: "A flutter package to make managing permissions smoother and easier."
 version: 0.0.1
-homepage:
+homepage: https://github.com/ktul15/manage_permissions
 
 environment:
   sdk: ^3.5.3
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:

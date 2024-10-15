@@ -1,7 +1,6 @@
-library manage_permissions;
+library manage_permission;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export './src/go_to_settings_dialog.dart';
+export './src/manage_camera_permission.dart';
+export './src/manage_photos_permissions.dart';
+export './src/manage_storage_permission.dart';
